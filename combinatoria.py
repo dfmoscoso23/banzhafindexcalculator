@@ -1,4 +1,4 @@
-list1 =["a","c","v","m"]
+list1 =["a","c","v","m","n"]
 def combinatoria(listado, dataProcesada):
 	if len(listado)==1:
 		return dataProcesada
