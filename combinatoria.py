@@ -17,6 +17,7 @@ def combinatoria(listado, dataProcesada):
 		data.append(temp)
 	dataProcesada.append(data)
 	print(dataProcesada)
+	
 	#return data	
 	####
 	#dataProcesada2 = data.extend(dataProcesada) 
