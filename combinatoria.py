@@ -5,14 +5,18 @@ def combinatoria(listado, dataProcesada):
 	data = []
 	####
 	## code
-	conj=[[s] for s in listado]
+	#conj=[[s] for s in listado]
 	primer_item=[listado[0]]
 	for x in listado[1:]:
-		comb=conj[:]
+		#comb=conj[:]
+		#print(comb)
 		temp=primer_item[:]
+		print(temp)
 		temp.append(x)
+		print(temp)
 		data.append(temp)
 	dataProcesada.append(data)
+	print(dataProcesada)
 	#return data	
 	####
 	#dataProcesada2 = data.extend(dataProcesada) 
