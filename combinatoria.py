@@ -20,7 +20,7 @@ def combinatoria(listado, dataProcesada):
 	dataProcesada.append(data)
 	print(dataProcesada)
 	
-	#return data	
+	#return data	hkj
 	####
 	#dataProcesada2 = data.extend(dataProcesada) 
 	return combinatoria(listado[1:],dataProcesada)
